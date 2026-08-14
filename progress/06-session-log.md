@@ -619,6 +619,18 @@
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
 
+### 2026-08-15 — Public app preview
+
+- Started with: add the supplied screenshot to visually describe PyPaste.
+- Completed: stored the panoramic Quick Bar screenshot in `docs/assets/` and placed it directly
+  below the README introduction with accessible English alternative text and a short caption.
+- Verification: copied image matches the source exactly; PNG is 2549×391 and the README uses a
+  repository-relative path with full-width rendering.
+- Decisions: DEV-038; documentation-only change with no app/runtime scope impact.
+- Blockers: none.
+- Plan alignment: ON PLAN.
+- Next action: complete the manual Accessibility/TCC verification for PYP-219.
+
 ### Session template
 
 ```markdown

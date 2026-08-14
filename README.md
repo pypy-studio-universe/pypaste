@@ -4,6 +4,13 @@ PyPaste is a native, local-first clipboard manager for macOS 14 or later. It pro
 keyboard-driven Quick Bar, fuzzy search, persistent collections, image and link previews,
 screenshot capture, drag and drop, and English/Vietnamese runtime localization.
 
+## App preview
+
+<img src="./docs/assets/pypaste-quick-bar-preview.png" alt="PyPaste Quick Bar showing clipboard history, search, collections, link previews, and image previews" width="100%">
+
+The bottom Quick Bar keeps clipboard history, search, collections, source applications, and
+rich previews within reach while you continue working in another macOS app.
+
 ## Highlights
 
 - Open the bottom Quick Bar with `⌘⇧V`.
