@@ -23,6 +23,21 @@ required permissions, features, keyboard controls, and troubleshooting.
 Development preview downloads are published on
 [GitHub Releases](https://github.com/pypy-studio-universe/pypaste/releases).
 
+## Cảm ơn và ủng hộ / Thank you and support
+
+Cảm ơn bạn đã sử dụng, đóng góp và đồng hành cùng PyPaste. Sự ủng hộ của bạn là động lực
+để ứng dụng tiếp tục được duy trì, hoàn thiện và phát triển thêm những tính năng hữu ích.
+
+Bạn có thể [ủng hộ PyPaste qua PayPal](https://www.paypal.com/ncp/payment/JXUF3RG3FSY6U) —
+mỗi đóng góp giúp tôi dành thêm thời gian để cải thiện và phát triển ứng dụng.
+
+Hoặc quét mã QR MoMo:
+
+<img src="./docs/assets/momo-donation-qr.png" alt="Ủng hộ PyPaste qua MoMo" width="320">
+
+Thank you for using, supporting, and contributing to PyPaste. Your support helps me spend
+more time maintaining the app, improving its quality, and building useful new features.
+
 ## Development
 
 Open `PyPaste.xcworkspace` in Xcode. Select your own development team for the PyPaste app and

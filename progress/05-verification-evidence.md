@@ -16,6 +16,7 @@ Whether the sensitivity of the output is saved in this file.
 | 2026-08-15 | PYP-230 | Format/lint | `./scripts/format.sh --lint`, `./scripts/lint.sh` | PASS — 89 Swift files, 0 violations |
 | 2026-08-15 | PYP-230 | Source publication | initial commit and `git push -u origin main` | PASS — `main` tracks `origin/main` |
 | 2026-08-15 | PYP-230 | GitHub prerelease | `gh release create` followed by release metadata and asset verification | PASS — `v0.1.0` prerelease contains the universal ZIP and checksum; uploaded digest matches the local SHA-256 |
+| 2026-08-15 | DEV-037 | Donation documentation | source/copy image comparison, PNG inspection, Markdown link review | PASS — 711×786 PNG preserved; PayPal HTTPS URL and repository-relative MoMo asset are present |
 
 | Date | Task/Milestone | Kind | Command/Method | The outcome |
 |---|---|---|---|---|

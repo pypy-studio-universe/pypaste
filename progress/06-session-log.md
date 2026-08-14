@@ -606,6 +606,19 @@
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
 
+### 2026-08-15 — Public thank-you and donation section
+
+- Started with: add a thank-you message, PayPal support link, and MoMo donation QR.
+- Completed: copied the supplied QR into `docs/assets/` and added a Vietnamese-first,
+  English-second support section to the public README.
+- Verification: source and repository PNG files match exactly; PNG is 711×786; Markdown uses
+  the requested HTTPS PayPal URL and a repository-relative image path.
+- Decisions: DEV-037; documentation-only change with no app/runtime scope impact.
+- Blockers: none. A temporary test cache created by PYP-230 was removed after the disk became
+  full; it contained no source and remains reproducible.
+- Plan alignment: ON PLAN.
+- Next action: complete the manual Accessibility/TCC verification for PYP-219.
+
 ### Session template
 
 ```markdown

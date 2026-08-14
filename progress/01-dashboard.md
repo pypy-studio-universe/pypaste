@@ -14,7 +14,7 @@
 | Next ready task | Confirm PYP-219; then PYP-001 |
 | Task completed recently | PYP-230 — public source and GitHub prerelease 0.1.0 |
 | Current blocker | No code blocker; PYP-219 waiting for manual TCC; ENV-007 blocking XCUI runtime collection |
-| Plan alignment | ON PLAN — PYP-230 follows DEV-036/ADR-026 |
+| Plan alignment | ON PLAN — donation documentation follows DEV-037; product scope is unchanged |
 | MVP progress | 41/124 tasks — 33.1% |
 | Full roadmap progress | 41/150 tasks — 27.3% |
 

@@ -11,7 +11,7 @@
 |Product| PyPaste |
 |The first platform| macOS |
 |Status| Implementation — M2 Accessibility/TCC review |
-|Document version| 1.16.1 |
+|Document version| 1.16.2 |
 |Update date| 2026-08-15 |
 |Current Milestone| M2 — Clipboard Core Vertical Slice |
 |Next task|PYP-219 — IN REVIEW; then PYP-001|
@@ -1711,6 +1711,7 @@ When you want to add or change features:
 
 | Version |Day|Change|
 |---|---|---|
+| 1.16.2 | 2026-08-15 | Add the user-requested thank-you and donation section to the public README with PayPal support link and repository-hosted MoMo QR asset; no product scope, runtime, privacy, or release behavior changed |
 | 1.16.1 | 2026-08-15 | Complete PYP-230/ADR-026: publish secure source on `main`, split the progress tracker, add the bilingual user guide, verify the universal signed 0.1.0 archive, and publish the ZIP plus checksum as a GitHub prerelease |
 | 1.16.0 | 2026-08-15 | Open PYP-230/ADR-026: split progress tracking, add the bilingual end-user guide, harden public Git hygiene, and prepare source plus a universal 0.1.0 preview release |
 | 1.15.0 | 2026-08-15 |Complete PYP-229/ADR-025: convert source authoring and all Markdown documentation to English while retaining Vietnamese only as localization/test data; preserve all structural markers and pass language, format, lint, test, and signed-build verification|
