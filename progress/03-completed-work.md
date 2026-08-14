@@ -9,7 +9,7 @@
 | Date | Artifact | Status | Note |
 |---|---|---|---|
 | 2026-08-09 | `PLAN.md` | DONE | Master plan, backlog, phase gates and quality targets |
-| 2026-08-09 | `PROGRESS.md` | DONE | Progress dashboard and plan drift controls |
+| 2026-08-09 | `progress/README.md` | DONE | Progress dashboard and plan drift controls |
 | 2026-08-09 | `PyPaste.xcworkspace` | DONE | Workspace with shared scheme PyPaste |
 | 2026-08-09 | `Packages/PyPasteKit` | DONE | Local Swift package contains 5 modules |
 | 2026-08-09 | `.github/workflows/ci.yml` | DONE | Lint CI, package test and app unit test |
@@ -58,5 +58,6 @@
 | PYP-227 | 2026-08-14 | payload 4/4, drag/reorder 23/23, signed build, 85-file lint | Original clip representations dragged to another app; own-process marker keeps internal reordering |
 | PYP-228 | 2026-08-14 | localization 4/4, Features 46/46, status selector 1/1, signed build, 89-file lint | Default English; Vietnamese selectable/persistent; live update AppKit + SwiftUI UI |
 | PYP-229 | 2026-08-15 | language/structure audits, package tests, signed build, format/lint | English source authoring and Markdown; Vietnamese retained only as localization or locale-specific test data |
+| PYP-230 | 2026-08-15 | secure staged-tree audit, universal signed archive, GitHub source push and verified prerelease assets | Split tracker, bilingual user guide, protected public repository and PyPaste 0.1.0 preview release |
 
 ---

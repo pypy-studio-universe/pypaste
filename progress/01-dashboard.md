@@ -8,15 +8,15 @@
 | Property | Status |
 |---|---|
 | Latest update date | 2026-08-15 |
-| Project status | PYP-230 public repository and preview release preparation in progress; PYP-219 remains in manual review |
+| Project status | PYP-230 public repository and preview release completed; PYP-219 remains in manual review |
 | Current milestone | M2 — Clipboard Core Vertical Slice |
-| Task is being performed | PYP-230 — public repository and preview release |
-| Next ready task | Finish PYP-230; confirm PYP-219; then PYP-001 |
-| Task completed recently | PYP-229 — English source and Markdown standardization |
+| Task is being performed | No — PYP-219 is IN REVIEW |
+| Next ready task | Confirm PYP-219; then PYP-001 |
+| Task completed recently | PYP-230 — public source and GitHub prerelease 0.1.0 |
 | Current blocker | No code blocker; PYP-219 waiting for manual TCC; ENV-007 blocking XCUI runtime collection |
 | Plan alignment | ON PLAN — PYP-230 follows DEV-036/ADR-026 |
-| MVP progress | 40/124 tasks — 32.3% |
-| Full roadmap progress | 40/150 tasks — 26.7% |
+| MVP progress | 41/124 tasks — 33.1% |
+| Full roadmap progress | 41/150 tasks — 27.3% |
 
 ### Quick conclusion
 
@@ -138,8 +138,8 @@
 
 ```text
 Milestone progress = DONE tasks / total milestone tasks
-MVP progress       = DONE tasks in M0–M7 / 123
-Roadmap progress   = DONE tasks in M0–M9 / 149
+MVP progress       = DONE tasks in M0–M7 / 124
+Roadmap progress   = DONE tasks in M0–M9 / 150
 ```
 
 ---
@@ -150,7 +150,7 @@ Roadmap progress   = DONE tasks in M0–M9 / 149
 |---|---|---:|---:|---:|---|---|
 | M0 | Product Definition and UX | 0 | 10 | 0% | READY | Not checked |
 | M1 | Project Foundation | 12 | 12 | 100% | DONE | Passed |
-| M2 | Clipboard Core + Quick Bar Extension | 28 | 29 | 96.6% | IN REVIEW | PYP-219 manual review |
+| M2 | Clipboard Core + Quick Bar Extension | 29 | 30 | 96.7% | IN REVIEW | PYP-219 manual review |
 | M3 | Persistence, Search and Content Types | 0 | 15 | 0% | NOT STARTED | Not checked |
 | M4 | Main History and Organization | 0 | 12 | 0% | NOT STARTED | Not checked |
 | M5 | Menu Bar, Quick Bar and Paste | 0 | 15 | 0% | NOT STARTED | Not checked |
@@ -163,7 +163,7 @@ Roadmap progress   = DONE tasks in M0–M9 / 149
 
 | Release | Milestone | Progress | Status |
 |---|---|---:|---|
-| MVP Beta | M0–M7 | 40/123 — 32.5% | IN PROGRESS |
+| MVP Beta | M0–M7 | 41/124 — 33.1% | IN PROGRESS |
 | PyPaste 1.0 | M8 | 0/13 — 0% | NOT STARTED |
 | PyPaste 1.1 Peer Share | M9 | 0/13 — 0% | NOT STARTED |
 

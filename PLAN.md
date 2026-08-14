@@ -11,7 +11,7 @@
 |Product| PyPaste |
 |The first platform| macOS |
 |Status| Implementation — M2 Accessibility/TCC review |
-|Document version| 1.16.0 |
+|Document version| 1.16.1 |
 |Update date| 2026-08-15 |
 |Current Milestone| M2 — Clipboard Core Vertical Slice |
 |Next task|PYP-219 — IN REVIEW; then PYP-001|
@@ -899,14 +899,14 @@ Four errors of old system resources due to hotkey/named pasteboard being occupie
   format/lint and signed app build pass. Package regression is 101/105, with four
   known system-resource conflicts (Carbon hotkeys and named pasteboard) unrelated
   to documentation or source authoring.
-- [ ] **PYP-230:** Prepare the repository for public development and the first preview
+- [x] **PYP-230:** Prepare the repository for public development and the first preview
   release. Split the operational tracker into focused files under `progress/`; add a
   Vietnamese-first, English-second installation and feature guide; remove personal
   signing identifiers and ignore credentials, local settings, build caches, and generated
   artifacts; initialize Git, publish `main`, create a verified universal macOS archive,
   and upload version 0.1.0 to GitHub Releases.
-  **State:** IN PROGRESS — local documentation and repository hardening are complete;
-  build, source publication, and GitHub Release evidence are pending.
+  **State:** DONE — secure staged-tree audit, universal signed archive, source publication,
+  GitHub prerelease, uploaded checksum verification, format/lint, and regression evidence pass.
 
 #### M2 Phase Gate
 
@@ -1680,7 +1680,7 @@ clipboard/database schema, no network and no payload log.
 ### ADR-026 — Public source and binary releases are separate deliverables
 
 - **Date:** 2026-08-15
-- **Status:** Accepted; implementation in PYP-230
+- **Status:** Accepted; implemented in PYP-230
 - **Decision:** Source control contains reproducible source, planning records, user
   documentation, release notes, and checksum manifests. It excludes signing identities,
   credentials, machine-local Xcode state, build caches, and generated binary archives.
@@ -1711,6 +1711,7 @@ When you want to add or change features:
 
 | Version |Day|Change|
 |---|---|---|
+| 1.16.1 | 2026-08-15 | Complete PYP-230/ADR-026: publish secure source on `main`, split the progress tracker, add the bilingual user guide, verify the universal signed 0.1.0 archive, and publish the ZIP plus checksum as a GitHub prerelease |
 | 1.16.0 | 2026-08-15 | Open PYP-230/ADR-026: split progress tracking, add the bilingual end-user guide, harden public Git hygiene, and prepare source plus a universal 0.1.0 preview release |
 | 1.15.0 | 2026-08-15 |Complete PYP-229/ADR-025: convert source authoring and all Markdown documentation to English while retaining Vietnamese only as localization/test data; preserve all structural markers and pass language, format, lint, test, and signed-build verification|
 | 1.14.0 | 2026-08-14 |Complete PYP-228/ADR-024: runtime English/Vietnamese, selector in status menu, checkmark + persistence and live update the entire UI; localization 4/4, Features 46/46, integration menu 1/1, signed build and 89-file lint pass|
@@ -1797,14 +1798,11 @@ collection delete ADR-020, keyboard modal stack ADR-021, immediate dialog ADR-02
 search-field visual correction PYP-226 and external drag ADR-023 have been completed;
 PYP-219 is waiting for manual TCC confirmation.
 
-PYP-230 is currently preparing the public repository and version 0.1.0 preview release.
-
 Next order:
 
-1. Finish PYP-230 source publication and version 0.1.0 GitHub Release.
-2. Confirm the real Accessibility paste to close PYP-219.
-3. Execute `PYP-001` to `PYP-010` and through M0 Phase Gate.
-4. Keep M1/M2 stable by regression tests.
-5. Start M3 with Blob Store, full parser/thumbnail, FTS5 and pagination.
+1. Confirm the real Accessibility paste to close PYP-219.
+2. Execute `PYP-001` to `PYP-010` and through M0 Phase Gate.
+3. Keep M1/M2 stable by regression tests.
+4. Start M3 with Blob Store, full parser/thumbnail, FTS5 and pagination.
 
-**Current task: `PYP-230` — IN PROGRESS; `PYP-219` remains IN REVIEW.**
+**Current task: `PYP-219` — IN REVIEW; no task is currently IN PROGRESS.**

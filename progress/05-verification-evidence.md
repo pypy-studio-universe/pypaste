@@ -15,6 +15,7 @@ Whether the sensitivity of the output is saved in this file.
 | 2026-08-15 | PYP-230 | Package regression | isolated SwiftPM scratch/cache | PARTIAL — 101/105 pass; three Carbon hotkey and one named-pasteboard resource conflicts match the existing environment baseline |
 | 2026-08-15 | PYP-230 | Format/lint | `./scripts/format.sh --lint`, `./scripts/lint.sh` | PASS — 89 Swift files, 0 violations |
 | 2026-08-15 | PYP-230 | Source publication | initial commit and `git push -u origin main` | PASS — `main` tracks `origin/main` |
+| 2026-08-15 | PYP-230 | GitHub prerelease | `gh release create` followed by release metadata and asset verification | PASS — `v0.1.0` prerelease contains the universal ZIP and checksum; uploaded digest matches the local SHA-256 |
 
 | Date | Task/Milestone | Kind | Command/Method | The outcome |
 |---|---|---|---|---|

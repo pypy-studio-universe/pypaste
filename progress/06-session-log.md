@@ -587,6 +587,25 @@
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
 
+### 2026-08-15 — Public repository and version 0.1.0 preview release
+
+- Started with: split the monolithic progress tracker, write a Vietnamese-first bilingual
+  user guide, protect sensitive files, publish source, and build a downloadable product.
+- Completed: created the seven-file `progress/` tracker and index; added the bilingual guide,
+  repository README, release notes, and checksum; removed the personal Team ID from the Xcode
+  project; expanded Git ignore rules; initialized `main`; pushed source to GitHub; built and
+  uploaded the universal PyPaste 0.1.0 ZIP as a prerelease.
+- Verification: staged-tree secret and personal-identifier audit pass; SwiftLint 89/89 pass;
+  package regression 101/105 with the four unchanged system-resource conflicts; release bundle
+  is version 0.1.0 build 1, `x86_64 arm64`, valid on disk, and satisfies its Designated
+  Requirement; GitHub reports both uploaded assets and the ZIP digest matches the local SHA-256.
+- Decisions: DEV-036/ADR-026/PYP-230; binaries are GitHub Release assets rather than tracked Git
+  files; end-user documentation is the explicit bilingual exception to English engineering docs.
+- Blockers: none for PYP-230. The preview is development-signed and intentionally marked
+  prerelease because Developer ID notarization is not yet configured.
+- Plan alignment: ON PLAN.
+- Next action: complete the manual Accessibility/TCC verification for PYP-219.
+
 ### Session template
 
 ```markdown

@@ -4,42 +4,8 @@
 
 ## 4. Current Work
 
-PYP-230 is `IN PROGRESS`. PYP-219 remains in `IN REVIEW` for manual real-paste
-confirmation before PYP-001.
-
-#### PYP-230 — Public repository and version 0.1.0 preview release
-
-- Status: IN PROGRESS
-- Started: 2026-08-15
-- Plan reference: PLAN.md → M2 → PYP-230; ADR-026
-- Dependencies verified: Yes — source and current signed build are available
-- Acceptance criteria:
-  - [x] The progress tracker is split into focused files under `progress/` with an index.
-  - [x] A Vietnamese-first, English-second installation and feature guide exists.
-  - [x] Personal signing identifiers, local Xcode state, caches, and secret-like files are
-    excluded from the public source tree.
-  - [x] Build and verify a universal macOS 0.1.0 archive.
-  - [x] Publish the source on the `main` branch of the configured GitHub repository.
-  - [ ] Publish the archive, release notes, and checksum through GitHub Releases.
-- Work completed:
-  - Split the former monolithic tracker into seven purpose-specific files and an index.
-  - Added the complete bilingual end-user guide and release notes.
-  - Removed the committed Personal Team setting and expanded `.gitignore` security rules.
-  - Built and signed a universal archive, created a ZIP and checksum, and pushed `main`.
-- Files changed:
-  - `progress/`, `docs/USER_GUIDE.md`, `.gitignore`
-  - `release/`, `PLAN.md`, `PyPaste.xcodeproj/project.pbxproj`
-- Verification:
-  - Secret filename/content-pattern scan: PASS — no credential payload found.
-  - SwiftLint: PASS — 89 files, 0 violations.
-  - Package tests: PARTIAL — 101/105 pass; three Carbon hotkey and one named-pasteboard
-    system-resource conflicts are unchanged from the baseline.
-  - Release archive: PASS — version 0.1.0, universal `x86_64 arm64`, strict codesign and
-    designated-requirement verification pass outside the Keychain sandbox.
-  - Source publication: PASS — `main` pushed to the configured GitHub origin.
-- Remaining:
-  - GitHub Release creation and final tracker update.
-- Blocked by: None
+There is no task `IN PROGRESS`. PYP-230 is `DONE`; PYP-219 remains in `IN REVIEW`
+for manual real-paste confirmation before PYP-001.
 
 #### PYP-219 — Developer Accessibility/TCC verification stabilization
 
@@ -112,12 +78,11 @@ Do not ignore this order without intentionally if you have not recorded Plan Dev
 
 | Order | Task | Status | Dependency | Goal |
 |---:|---|---|---|---|
-| 1 | PYP-230 | IN PROGRESS | Local build and GitHub access | Public source + version 0.1.0 preview release |
-| 2 | PYP-219 | IN REVIEW | User confirmation | Reset/regrant + real Accessibility paste verification |
-| 3 | PYP-001 | READY AFTER M2 | PYP-219 | Lock target, distribution and temporary bundle ID |
-| 4 | PYP-002 | NOT STARTED | PYP-001 | One-page MVP PRD |
-| 5 | PYP-003 | NOT STARTED | PYP-002 | Main History wireframe |
-| 6 | PYP-004 | NOT STARTED | PYP-002 | Bottom Quick Bar wireframe |
-| 7 | PYP-005 | NOT STARTED | PYP-002 | Settings and Onboarding wireframe |
+| 1 | PYP-219 | IN REVIEW | User confirmation | Reset/regrant + real Accessibility paste verification |
+| 2 | PYP-001 | READY AFTER M2 | PYP-219 | Lock target, distribution and temporary bundle ID |
+| 3 | PYP-002 | NOT STARTED | PYP-001 | One-page MVP PRD |
+| 4 | PYP-003 | NOT STARTED | PYP-002 | Main History wireframe |
+| 5 | PYP-004 | NOT STARTED | PYP-002 | Bottom Quick Bar wireframe |
+| 6 | PYP-005 | NOT STARTED | PYP-002 | Settings and Onboarding wireframe |
 
 ---
