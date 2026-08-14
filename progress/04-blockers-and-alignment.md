@@ -470,5 +470,6 @@ When you need to change the plan, add records according to the template:
 | DEV-036 | 2026-08-15 | Split progress tracking, publish public source, and create a bilingual preview release | Add PYP-230/ADR-026; keep engineering docs English with an explicit bilingual user-guide exception | APPROVED |
 | DEV-037 | 2026-08-15 | Add thank-you and donation options to the public repository | README-only update with PayPal link and repository-hosted MoMo QR; no app/runtime scope change | APPROVED |
 | DEV-038 | 2026-08-15 | Add a visual app description to the public repository | README-only panoramic Quick Bar preview using the user-supplied screenshot; no app/runtime scope change | APPROVED |
+| DEV-039 | 2026-08-15 | Add the app logo and make the public README fully bilingual | Use the packaged AppIcon; complete Vietnamese section first and equivalent English section second; no app/runtime scope change | APPROVED |
 
 ---

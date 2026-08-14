@@ -631,6 +631,19 @@
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
 
+### 2026-08-15 — Branded bilingual public README
+
+- Started with: add the PyPaste logo and place all Vietnamese README content before English.
+- Completed: displayed the packaged 256×256 AppIcon above the product name and rebuilt README
+  into complete Vietnamese-first and English-second sections covering the app description,
+  preview, features, installation, donations, development, privacy, and release status.
+- Verification: local asset paths resolve; language-section ordering and equivalent headings pass
+  manual review; existing screenshot, PayPal URL, and MoMo QR remain present.
+- Decisions: DEV-039; user-facing bilingual documentation is allowed by ADR-026.
+- Blockers: none.
+- Plan alignment: ON PLAN.
+- Next action: complete the manual Accessibility/TCC verification for PYP-219.
+
 ### Session template
 
 ```markdown

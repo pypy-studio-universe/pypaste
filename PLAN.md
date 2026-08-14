@@ -11,7 +11,7 @@
 |Product| PyPaste |
 |The first platform| macOS |
 |Status| Implementation — M2 Accessibility/TCC review |
-|Document version| 1.16.3 |
+|Document version| 1.16.4 |
 |Update date| 2026-08-15 |
 |Current Milestone| M2 — Clipboard Core Vertical Slice |
 |Next task|PYP-219 — IN REVIEW; then PYP-001|
@@ -1711,6 +1711,7 @@ When you want to add or change features:
 
 | Version |Day|Change|
 |---|---|---|
+| 1.16.4 | 2026-08-15 | Restructure the public README with the packaged PyPaste AppIcon at the top and complete Vietnamese-first, English-second sections for overview, preview, features, installation, support, development, privacy, and status; documentation-only change |
 | 1.16.3 | 2026-08-15 | Add the user-supplied panoramic Quick Bar screenshot to the public README as the primary app preview; documentation-only change with no runtime or product-scope impact |
 | 1.16.2 | 2026-08-15 | Add the user-requested thank-you and donation section to the public README with PayPal support link and repository-hosted MoMo QR asset; no product scope, runtime, privacy, or release behavior changed |
 | 1.16.1 | 2026-08-15 | Complete PYP-230/ADR-026: publish secure source on `main`, split the progress tracker, add the bilingual user guide, verify the universal signed 0.1.0 archive, and publish the ZIP plus checksum as a GitHub prerelease |
