@@ -471,5 +471,6 @@ When you need to change the plan, add records according to the template:
 | DEV-037 | 2026-08-15 | Add thank-you and donation options to the public repository | README-only update with PayPal link and repository-hosted MoMo QR; no app/runtime scope change | APPROVED |
 | DEV-038 | 2026-08-15 | Add a visual app description to the public repository | README-only panoramic Quick Bar preview using the user-supplied screenshot; no app/runtime scope change | APPROVED |
 | DEV-039 | 2026-08-15 | Add the app logo and make the public README fully bilingual | Use the packaged AppIcon; complete Vietnamese section first and equivalent English section second; no app/runtime scope change | APPROVED |
+| DEV-040 | 2026-08-15 | Match the public README to the supplied PypyDisplay structure | Centered brand/preview, concise Vietnamese then English sections, shared support block, direct release asset link; no app/runtime scope change | APPROVED |
 
 ---

@@ -19,6 +19,7 @@ Whether the sensitivity of the output is saved in this file.
 | 2026-08-15 | DEV-037 | Donation documentation | source/copy image comparison, PNG inspection, Markdown link review | PASS — 711×786 PNG preserved; PayPal HTTPS URL and repository-relative MoMo asset are present |
 | 2026-08-15 | DEV-038 | Public app preview | source/copy image comparison, PNG inspection, README asset-path review | PASS — 2549×391 panoramic PNG preserved and referenced through a repository-relative path |
 | 2026-08-15 | DEV-039 | Branded bilingual README | AppIcon inspection, section-order audit, repository-relative link review | PASS — packaged 256×256 AppIcon is displayed; complete Vietnamese content precedes complete English content; all local assets resolve |
+| 2026-08-15 | DEV-040 | Compact public README | heading/order audit, local asset checks, versioned release-link review | PASS — brand and preview centered; Vietnamese precedes English; shared support block is last; v0.1.0 universal ZIP URL matches the published asset |
 
 | Date | Task/Milestone | Kind | Command/Method | The outcome |
 |---|---|---|---|---|

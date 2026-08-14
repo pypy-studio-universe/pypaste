@@ -644,6 +644,19 @@
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
 
+### 2026-08-15 — Compact PypyDisplay-style README
+
+- Started with: use the supplied PypyDisplay README as the structural reference for PyPaste.
+- Completed: centered the app logo and panoramic preview; shortened the introduction and feature
+  list; retained full Vietnamese content before equivalent English content; added a direct
+  versioned universal ZIP link; placed the shared PayPal/MoMo support block near the end.
+- Verification: README section order, local images, documentation links, and published asset name
+  pass review; `git diff --check` is clean.
+- Decisions: DEV-040; concise public presentation without changing product/runtime scope.
+- Blockers: none.
+- Plan alignment: ON PLAN.
+- Next action: complete the manual Accessibility/TCC verification for PYP-219.
+
 ### Session template
 
 ```markdown
