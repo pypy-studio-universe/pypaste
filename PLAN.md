@@ -11,7 +11,7 @@
 |Product| PyPaste |
 |The first platform| macOS |
 |Status| Implementation — M2 Accessibility/TCC review |
-|Document version| 1.16.5 |
+|Document version| 1.16.6 |
 |Update date| 2026-08-15 |
 |Current Milestone| M2 — Clipboard Core Vertical Slice |
 |Next task|PYP-219 — IN REVIEW; then PYP-001|
@@ -906,7 +906,7 @@ Four errors of old system resources due to hotkey/named pasteboard being occupie
   artifacts; initialize Git, publish `main`, create a verified universal macOS archive,
   and upload version 0.1.0 to GitHub Releases.
   **State:** DONE — secure staged-tree audit, universal signed archive, source publication,
-  GitHub prerelease, uploaded checksum verification, format/lint, and regression evidence pass.
+  published GitHub Release, uploaded checksum verification, format/lint, and regression evidence pass.
 
 #### M2 Phase Gate
 
@@ -1711,11 +1711,12 @@ When you want to add or change features:
 
 | Version |Day|Change|
 |---|---|---|
+| 1.16.6 | 2026-08-15 | Publish the existing GitHub v0.1.0 entry as the Latest non-draft Release so it appears in the repository Releases panel; retain the Development Preview and non-notarized warnings in release notes |
 | 1.16.5 | 2026-08-15 | Refine the public README to match the approved compact PypyDisplay-style structure: centered brand and preview, Vietnamese product content first, equivalent English content second, shared support section last, and direct versioned download link; documentation-only change |
 | 1.16.4 | 2026-08-15 | Restructure the public README with the packaged PyPaste AppIcon at the top and complete Vietnamese-first, English-second sections for overview, preview, features, installation, support, development, privacy, and status; documentation-only change |
 | 1.16.3 | 2026-08-15 | Add the user-supplied panoramic Quick Bar screenshot to the public README as the primary app preview; documentation-only change with no runtime or product-scope impact |
 | 1.16.2 | 2026-08-15 | Add the user-requested thank-you and donation section to the public README with PayPal support link and repository-hosted MoMo QR asset; no product scope, runtime, privacy, or release behavior changed |
-| 1.16.1 | 2026-08-15 | Complete PYP-230/ADR-026: publish secure source on `main`, split the progress tracker, add the bilingual user guide, verify the universal signed 0.1.0 archive, and publish the ZIP plus checksum as a GitHub prerelease |
+| 1.16.1 | 2026-08-15 | Complete PYP-230/ADR-026: publish secure source on `main`, split the progress tracker, add the bilingual user guide, verify the universal signed 0.1.0 archive, and publish the ZIP plus checksum through GitHub Releases |
 | 1.16.0 | 2026-08-15 | Open PYP-230/ADR-026: split progress tracking, add the bilingual end-user guide, harden public Git hygiene, and prepare source plus a universal 0.1.0 preview release |
 | 1.15.0 | 2026-08-15 |Complete PYP-229/ADR-025: convert source authoring and all Markdown documentation to English while retaining Vietnamese only as localization/test data; preserve all structural markers and pass language, format, lint, test, and signed-build verification|
 | 1.14.0 | 2026-08-14 |Complete PYP-228/ADR-024: runtime English/Vietnamese, selector in status menu, checkmark + persistence and live update the entire UI; localization 4/4, Features 46/46, integration menu 1/1, signed build and 89-file lint pass|

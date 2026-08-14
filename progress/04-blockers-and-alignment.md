@@ -472,5 +472,6 @@ When you need to change the plan, add records according to the template:
 | DEV-038 | 2026-08-15 | Add a visual app description to the public repository | README-only panoramic Quick Bar preview using the user-supplied screenshot; no app/runtime scope change | APPROVED |
 | DEV-039 | 2026-08-15 | Add the app logo and make the public README fully bilingual | Use the packaged AppIcon; complete Vietnamese section first and equivalent English section second; no app/runtime scope change | APPROVED |
 | DEV-040 | 2026-08-15 | Match the public README to the supplied PypyDisplay structure | Centered brand/preview, concise Vietnamese then English sections, shared support block, direct release asset link; no app/runtime scope change | APPROVED |
+| DEV-041 | 2026-08-15 | Show the app build in the repository Releases panel | Convert existing v0.1.0 from prerelease metadata to published Latest Release; keep Development Preview/non-notarized warning | APPROVED |
 
 ---

@@ -594,15 +594,15 @@
 - Completed: created the seven-file `progress/` tracker and index; added the bilingual guide,
   repository README, release notes, and checksum; removed the personal Team ID from the Xcode
   project; expanded Git ignore rules; initialized `main`; pushed source to GitHub; built and
-  uploaded the universal PyPaste 0.1.0 ZIP as a prerelease.
+  uploaded the universal PyPaste 0.1.0 ZIP through GitHub Releases.
 - Verification: staged-tree secret and personal-identifier audit pass; SwiftLint 89/89 pass;
   package regression 101/105 with the four unchanged system-resource conflicts; release bundle
   is version 0.1.0 build 1, `x86_64 arm64`, valid on disk, and satisfies its Designated
   Requirement; GitHub reports both uploaded assets and the ZIP digest matches the local SHA-256.
 - Decisions: DEV-036/ADR-026/PYP-230; binaries are GitHub Release assets rather than tracked Git
   files; end-user documentation is the explicit bilingual exception to English engineering docs.
-- Blockers: none for PYP-230. The preview is development-signed and intentionally marked
-  prerelease because Developer ID notarization is not yet configured.
+- Blockers: none for PYP-230. The published release remains clearly labeled Development Preview
+  because Developer ID notarization is not yet configured.
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
 
@@ -656,6 +656,19 @@
 - Blockers: none.
 - Plan alignment: ON PLAN.
 - Next action: complete the manual Accessibility/TCC verification for PYP-219.
+
+### 2026-08-15 — Publish v0.1.0 in the repository Releases panel
+
+- Started with: the repository sidebar displayed one tag but no visible application release.
+- Completed: converted the existing v0.1.0 GitHub entry from prerelease metadata to a published
+  Latest Release without replacing its ZIP, checksum, tag, or release notes.
+- Verification: GitHub reports draft=false and prerelease=false; the `releases/latest` endpoint
+  resolves to v0.1.0 and lists both expected assets.
+- Decisions: DEV-041; the release remains labeled Development Preview because it is
+  development-signed and not notarized.
+- Blockers: none.
+- Plan alignment: ON PLAN.
+- Next action: refresh the repository page and verify the v0.1.0 card in the Releases panel.
 
 ### Session template
 
