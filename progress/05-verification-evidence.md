@@ -9,6 +9,15 @@ Whether the sensitivity of the output is saved in this file.
 
 | Date | Task/Milestone | Kind | Command/Method | The outcome |
 |---|---|---|---|---|
+| 2026-08-15 | PYP-230 | Public staged-tree security audit | `.gitignore`, staged filename scan, secret/personal-identifier pattern scan, `git diff --cached --check` | PASS — no credential, personal Team ID, local Xcode state, cache, or generated binary staged |
+| 2026-08-15 | PYP-230 | Universal release archive | Release `xcodebuild archive`, `lipo`, bundle version inspection | PASS — PyPaste 0.1.0 build 1; `x86_64 arm64` |
+| 2026-08-15 | PYP-230 | Release signature | strict `codesign --verify` outside the Keychain sandbox | PASS — valid on disk and satisfies its Designated Requirement |
+| 2026-08-15 | PYP-230 | Package regression | isolated SwiftPM scratch/cache | PARTIAL — 101/105 pass; three Carbon hotkey and one named-pasteboard resource conflicts match the existing environment baseline |
+| 2026-08-15 | PYP-230 | Format/lint | `./scripts/format.sh --lint`, `./scripts/lint.sh` | PASS — 89 Swift files, 0 violations |
+| 2026-08-15 | PYP-230 | Source publication | initial commit and `git push -u origin main` | PASS — `main` tracks `origin/main` |
+
+| Date | Task/Milestone | Kind | Command/Method | The outcome |
+|---|---|---|---|---|
 | 2026-08-09 | M1 | Format/lint | `./scripts/format.sh` + `./scripts/lint.sh` | PASS — 21 Swift files, 0 violations |
 | 2026-08-09 | PYP-107 | Package tests | `swift test --package-path Packages/PyPasteKit` | PASS — 2/2 tests |
 | 2026-08-09 | M1 | Xcode tests | `xcodebuild test -workspace PyPaste.xcworkspace -scheme PyPaste -destination 'platform=macOS'` | PASS — 3/3 tests |

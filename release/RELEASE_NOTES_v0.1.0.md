@@ -19,5 +19,5 @@ Accessibility access is granted.
 This build is development-signed and not notarized. Install only from the official repository;
 right-click the application and choose **Open** if Gatekeeper asks for confirmation.
 
-See [the bilingual user guide](../docs/USER_GUIDE.md) for installation, permissions, features,
-and troubleshooting.
+See the [bilingual user guide](https://github.com/pypy-studio-universe/pypaste/blob/main/docs/USER_GUIDE.md)
+for installation, permissions, features, and troubleshooting.

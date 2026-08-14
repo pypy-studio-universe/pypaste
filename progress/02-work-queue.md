@@ -18,20 +18,27 @@ confirmation before PYP-001.
   - [x] A Vietnamese-first, English-second installation and feature guide exists.
   - [x] Personal signing identifiers, local Xcode state, caches, and secret-like files are
     excluded from the public source tree.
-  - [ ] Build and verify a universal macOS 0.1.0 archive.
-  - [ ] Publish the source on the `main` branch of the configured GitHub repository.
+  - [x] Build and verify a universal macOS 0.1.0 archive.
+  - [x] Publish the source on the `main` branch of the configured GitHub repository.
   - [ ] Publish the archive, release notes, and checksum through GitHub Releases.
 - Work completed:
   - Split the former monolithic tracker into seven purpose-specific files and an index.
   - Added the complete bilingual end-user guide and release notes.
   - Removed the committed Personal Team setting and expanded `.gitignore` security rules.
+  - Built and signed a universal archive, created a ZIP and checksum, and pushed `main`.
 - Files changed:
   - `progress/`, `docs/USER_GUIDE.md`, `.gitignore`
   - `release/`, `PLAN.md`, `PyPaste.xcodeproj/project.pbxproj`
 - Verification:
   - Secret filename/content-pattern scan: PASS — no credential payload found.
+  - SwiftLint: PASS — 89 files, 0 violations.
+  - Package tests: PARTIAL — 101/105 pass; three Carbon hotkey and one named-pasteboard
+    system-resource conflicts are unchanged from the baseline.
+  - Release archive: PASS — version 0.1.0, universal `x86_64 arm64`, strict codesign and
+    designated-requirement verification pass outside the Keychain sandbox.
+  - Source publication: PASS — `main` pushed to the configured GitHub origin.
 - Remaining:
-  - Build, test, staged-tree audit, push, and GitHub Release creation.
+  - GitHub Release creation and final tracker update.
 - Blocked by: None
 
 #### PYP-219 — Developer Accessibility/TCC verification stabilization
