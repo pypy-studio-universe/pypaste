@@ -58,6 +58,6 @@
 | PYP-227 | 2026-08-14 | payload 4/4, drag/reorder 23/23, signed build, 85-file lint | Original clip representations dragged to another app; own-process marker keeps internal reordering |
 | PYP-228 | 2026-08-14 | localization 4/4, Features 46/46, status selector 1/1, signed build, 89-file lint | Default English; Vietnamese selectable/persistent; live update AppKit + SwiftUI UI |
 | PYP-229 | 2026-08-15 | language/structure audits, package tests, signed build, format/lint | English source authoring and Markdown; Vietnamese retained only as localization or locale-specific test data |
-| PYP-230 | 2026-08-15 | secure staged-tree audit, universal signed archive, GitHub source push and verified published assets | Split tracker, bilingual user guide, protected public repository and PyPaste 0.1.0 Development Preview release |
+| PYP-230 | 2026-08-15 | secure staged-tree audit, universal signed archive/DMG, GitHub source push and verified published assets | Split tracker, bilingual user guide, protected public repository and installable PyPaste 0.1.0 Development Preview release |
 
 ---

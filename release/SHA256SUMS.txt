@@ -1,1 +1,2 @@
 c7a4f40db8c3947eed73b8020a100a1b06a0c0006b6dbaf6a425d176984ca2f1  PyPaste-v0.1.0-macOS-universal.zip
+35e858df4794e7577b8aecef9fdff8133987eb9b27117d58e52f594a67578898  PyPaste-0.1.0-universal.dmg

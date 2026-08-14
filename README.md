@@ -38,9 +38,9 @@ ngay trên macOS.
 
 ### Cài đặt
 
-1. [Tải PyPaste 0.1.0](https://github.com/pypy-studio-universe/pypaste/releases/download/v0.1.0/PyPaste-v0.1.0-macOS-universal.zip).
-2. Giải nén và kéo **PyPaste** vào **Applications**.
-3. Nhấp phải vào ứng dụng, chọn **Open**, rồi xác nhận **Open** nếu macOS yêu cầu.
+1. [Tải PyPaste 0.1.0 DMG](https://github.com/pypy-studio-universe/pypaste/releases/download/v0.1.0/PyPaste-0.1.0-universal.dmg).
+2. Mở file DMG và kéo **PyPaste** vào **Applications**.
+3. Nhấp phải vào ứng dụng trong Applications, chọn **Open**, rồi xác nhận **Open** nếu macOS yêu cầu.
 4. Cấp quyền **Accessibility** tại **System Settings → Privacy & Security → Accessibility**
    để PyPaste có thể tự động dán nội dung đã chọn.
 
@@ -78,9 +78,9 @@ PyPaste helps you quickly save, search, preview, organize, and reuse clipboard c
 
 ### Installation
 
-1. [Download PyPaste 0.1.0](https://github.com/pypy-studio-universe/pypaste/releases/download/v0.1.0/PyPaste-v0.1.0-macOS-universal.zip).
-2. Unzip the archive and drag **PyPaste** into **Applications**.
-3. Right-click the app, select **Open**, and confirm **Open** if macOS requests approval.
+1. [Download PyPaste 0.1.0 DMG](https://github.com/pypy-studio-universe/pypaste/releases/download/v0.1.0/PyPaste-0.1.0-universal.dmg).
+2. Open the DMG and drag **PyPaste** into **Applications**.
+3. Right-click the app in Applications, select **Open**, and confirm **Open** if macOS requests approval.
 4. Grant **Accessibility** access under
    **System Settings → Privacy & Security → Accessibility** to enable automatic paste.
 

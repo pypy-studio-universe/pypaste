@@ -11,7 +11,7 @@
 |Product| PyPaste |
 |The first platform| macOS |
 |Status| Implementation — M2 Accessibility/TCC review |
-|Document version| 1.16.6 |
+|Document version| 1.16.7 |
 |Update date| 2026-08-15 |
 |Current Milestone| M2 — Clipboard Core Vertical Slice |
 |Next task|PYP-219 — IN REVIEW; then PYP-001|
@@ -1711,6 +1711,7 @@ When you want to add or change features:
 
 | Version |Day|Change|
 |---|---|---|
+| 1.16.7 | 2026-08-15 | Add a verified universal PyPaste 0.1.0 DMG with an Applications shortcut to the existing Latest Release; update README, bilingual guide, release notes, and checksums so DMG is the primary installation path while retaining ZIP as a fallback |
 | 1.16.6 | 2026-08-15 | Publish the existing GitHub v0.1.0 entry as the Latest non-draft Release so it appears in the repository Releases panel; retain the Development Preview and non-notarized warnings in release notes |
 | 1.16.5 | 2026-08-15 | Refine the public README to match the approved compact PypyDisplay-style structure: centered brand and preview, Vietnamese product content first, equivalent English content second, shared support section last, and direct versioned download link; documentation-only change |
 | 1.16.4 | 2026-08-15 | Restructure the public README with the packaged PyPaste AppIcon at the top and complete Vietnamese-first, English-second sections for overview, preview, features, installation, support, development, privacy, and status; documentation-only change |

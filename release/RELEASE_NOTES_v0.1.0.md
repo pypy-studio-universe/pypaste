@@ -9,6 +9,12 @@ chụp màn hình, kéo thả, song ngữ Việt–Anh và tự động dán khi
 Bản dựng được ký bằng chứng chỉ phát triển và chưa notarize. Chỉ cài từ repository chính thức;
 nhấp phải ứng dụng và chọn **Open** nếu Gatekeeper yêu cầu xác nhận.
 
+### Cài đặt
+
+1. [Tải PyPaste-0.1.0-universal.dmg](https://github.com/pypy-studio-universe/pypaste/releases/download/v0.1.0/PyPaste-0.1.0-universal.dmg).
+2. Mở DMG và kéo **PyPaste** vào **Applications**.
+3. Nhấp phải vào PyPaste trong Applications và chọn **Open** trong lần mở đầu tiên.
+
 ## English
 
 This is the first PyPaste development preview for macOS 14 or later. It includes clipboard
@@ -18,6 +24,12 @@ Accessibility access is granted.
 
 This build is development-signed and not notarized. Install only from the official repository;
 right-click the application and choose **Open** if Gatekeeper asks for confirmation.
+
+### Installation
+
+1. [Download PyPaste-0.1.0-universal.dmg](https://github.com/pypy-studio-universe/pypaste/releases/download/v0.1.0/PyPaste-0.1.0-universal.dmg).
+2. Open the DMG and drag **PyPaste** into **Applications**.
+3. Right-click PyPaste in Applications and choose **Open** on the first launch.
 
 See the [bilingual user guide](https://github.com/pypy-studio-universe/pypaste/blob/main/docs/USER_GUIDE.md)
 for installation, permissions, features, and troubleshooting.

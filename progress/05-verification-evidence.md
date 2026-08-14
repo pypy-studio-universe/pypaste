@@ -21,6 +21,8 @@ Whether the sensitivity of the output is saved in this file.
 | 2026-08-15 | DEV-039 | Branded bilingual README | AppIcon inspection, section-order audit, repository-relative link review | PASS — packaged 256×256 AppIcon is displayed; complete Vietnamese content precedes complete English content; all local assets resolve |
 | 2026-08-15 | DEV-040 | Compact public README | heading/order audit, local asset checks, versioned release-link review | PASS — brand and preview centered; Vietnamese precedes English; shared support block is last; v0.1.0 universal ZIP URL matches the published asset |
 | 2026-08-15 | DEV-041 | Latest Release visibility | GitHub release view plus `releases/latest` API endpoint | PASS — v0.1.0 is published, non-draft, non-prerelease, Latest, with ZIP and checksum assets |
+| 2026-08-15 | DEV-042 | Universal DMG | `hdiutil create/verify/attach`, strict codesign, `lipo`, bundle-version and Applications-link inspection | PASS — valid 2.3 MB DMG; PyPaste 0.1.0 is `x86_64 arm64`, signed, and includes `/Applications` shortcut |
+| 2026-08-15 | DEV-042 | Published DMG | GitHub asset metadata/digest verification | PASS — `PyPaste-0.1.0-universal.dmg` uploaded; SHA-256 `35e858df4794e7577b8aecef9fdff8133987eb9b27117d58e52f594a67578898` matches local artifact |
 
 | Date | Task/Milestone | Kind | Command/Method | The outcome |
 |---|---|---|---|---|

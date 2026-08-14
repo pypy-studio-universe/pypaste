@@ -12,9 +12,9 @@
 | Current milestone | M2 — Clipboard Core Vertical Slice |
 | Task is being performed | No — PYP-219 is IN REVIEW |
 | Next ready task | Confirm PYP-219; then PYP-001 |
-| Task completed recently | PYP-230 — public source and GitHub Latest Release 0.1.0 |
+| Task completed recently | PYP-230 — public source and installable GitHub Release 0.1.0 DMG |
 | Current blocker | No code blocker; PYP-219 waiting for manual TCC; ENV-007 blocking XCUI runtime collection |
-| Plan alignment | ON PLAN — visible Latest Release follows DEV-041; product scope is unchanged |
+| Plan alignment | ON PLAN — installable universal DMG follows DEV-042; product scope is unchanged |
 | MVP progress | 41/124 tasks — 33.1% |
 | Full roadmap progress | 41/150 tasks — 27.3% |
 

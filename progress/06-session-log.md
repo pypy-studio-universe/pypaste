@@ -670,6 +670,21 @@
 - Plan alignment: ON PLAN.
 - Next action: refresh the repository page and verify the v0.1.0 card in the Releases panel.
 
+### 2026-08-15 — Universal DMG installer
+
+- Started with: provide a direct installer that does not require downloading and extracting ZIP.
+- Completed: created a compressed DMG containing the signed universal PyPaste.app and an
+  Applications shortcut; uploaded it to v0.1.0; replaced the checksum asset; updated the GitHub
+  release body, README, and bilingual user guide to make DMG the primary installation path.
+- Verification: `hdiutil verify` passes; read-only mount contains version 0.1.0, `x86_64 arm64`,
+  valid code signature, and `/Applications` link; GitHub reports uploaded state and the same
+  SHA-256 digest as the local DMG.
+- Decisions: DEV-042; retain ZIP as a fallback asset, but direct users to DMG by default.
+- Blockers: none. The app remains development-signed and non-notarized as disclosed.
+- Plan alignment: ON PLAN.
+- Next action: download the DMG from GitHub on a clean Mac user account and complete the manual
+  Accessibility/TCC verification for PYP-219.
+
 ### Session template
 
 ```markdown

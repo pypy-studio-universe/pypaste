@@ -12,8 +12,8 @@ Yêu cầu hệ thống: macOS 14 Sonoma trở lên.
 ### 2. Cài đặt
 
 1. Mở trang **Releases** của dự án trên GitHub.
-2. Tải file `PyPaste-v0.1.0-macOS-universal.zip`.
-3. Giải nén và kéo `PyPaste.app` vào thư mục **Applications**.
+2. Tải file `PyPaste-0.1.0-universal.dmg`.
+3. Mở DMG và kéo `PyPaste.app` vào thư mục **Applications**.
 4. Mở PyPaste từ Applications.
 5. Nếu macOS chặn bản thử nghiệm chưa notarize, nhấp phải vào `PyPaste.app`, chọn **Open**,
    rồi xác nhận **Open**. Chỉ cài file tải từ trang Releases chính thức của dự án.
@@ -134,8 +134,8 @@ System requirement: macOS 14 Sonoma or later.
 ### 2. Installation
 
 1. Open the project's GitHub **Releases** page.
-2. Download `PyPaste-v0.1.0-macOS-universal.zip`.
-3. Unzip it and drag `PyPaste.app` into **Applications**.
+2. Download `PyPaste-0.1.0-universal.dmg`.
+3. Open the DMG and drag `PyPaste.app` into **Applications**.
 4. Open PyPaste from Applications.
 5. If macOS blocks the non-notarized development preview, right-click `PyPaste.app`, choose
    **Open**, and confirm **Open**. Install only artifacts from the official project Releases page.
