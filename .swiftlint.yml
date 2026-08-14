@@ -1,0 +1,53 @@
+included:
+  - App
+  - Packages/PyPasteKit/Sources
+  - Packages/PyPasteKit/Tests
+  - Tests
+
+excluded:
+  - .build
+  - DerivedData
+
+opt_in_rules:
+  - closure_spacing
+  - empty_count
+  - empty_string
+  - explicit_init
+  - first_where
+  - force_unwrapping
+  - overridden_super_call
+  - private_action
+  - private_outlet
+  - redundant_nil_coalescing
+  - sorted_imports
+  - unowned_variable_capture
+
+disabled_rules:
+  # Xcode 26 swift-format owns brace layout for multiline conditions.
+  - opening_brace
+  - trailing_comma
+
+line_length:
+  warning: 100
+  error: 120
+  ignores_comments: true
+  ignores_urls: true
+
+file_length:
+  warning: 400
+  error: 600
+
+type_body_length:
+  warning: 250
+  error: 350
+
+function_body_length:
+  warning: 50
+  error: 80
+
+identifier_name:
+  min_length: 2
+  excluded:
+    - id
+
+reporter: xcode

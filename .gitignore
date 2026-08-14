@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Xcode and SwiftPM build products
+.build/
+**/.build/
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+*.xcuserstate
+xcuserdata/
+**/xcuserdata/
+.swiftpm/
+**/.swiftpm/xcode/xcuserdata/
+default.profraw
+*.profraw
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pem
+*.key
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.private.xcconfig
+Config/Local.xcconfig
+Secrets.*
+
+# Generated release artifacts are published through GitHub Releases, not Git
+release/*
+!release/README.md
+!release/RELEASE_NOTES_v*.md
+!release/SHA256SUMS.txt

@@ -1,0 +1,25 @@
+{
+  "indentation": {
+    "spaces": 4
+  },
+  "lineLength": 100,
+  "maximumBlankLines": 1,
+  "multiElementCollectionTrailingCommas": true,
+  "respectsExistingLineBreaks": true,
+  "rules": {
+    "AllPublicDeclarationsHaveDocumentation": false,
+    "AlwaysUseLowerCamelCase": true,
+    "AvoidRetroactiveConformances": true,
+    "DoNotUseSemicolons": true,
+    "FileScopedDeclarationPrivacy": true,
+    "NeverForceUnwrap": true,
+    "NeverUseForceTry": true,
+    "NeverUseImplicitlyUnwrappedOptionals": true,
+    "NoAssignmentInExpressions": true,
+    "OrderedImports": true,
+    "UseEarlyExits": true,
+    "UseShorthandTypeNames": true,
+    "UseTripleSlashForDocumentationComments": true
+  },
+  "version": 1
+}
